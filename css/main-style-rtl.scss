@@ -1,0 +1,352 @@
+@use "../components/fream-work";
+
+@use "../components/header";
+
+@use "../components/introduction-page";
+
+@use "../components/our-services";
+
+@use "../components/about-us";
+
+@use "../components/our-values";
+
+@use "../components/have-any-project";
+
+@use "../components/explore-features";
+
+@use "../components/main-projects";
+
+@use "../components/contact-us";
+
+@use "../components/footer";
+
+// start nav-bar
+.nav-bar {
+    .container {
+        .links {
+            a {
+                font-size: 18px !important;
+            }
+        }
+    }
+}
+// end nav-bar
+
+/*/// Start Header ///*/
+.header-page {
+    .description-header {
+        p {
+            font-size: 18px !important;
+        }
+    }
+
+    .img-header {
+        justify-content: flex-start !important;
+
+        .border1 {
+            right: auto !important;
+            left: 35px;
+        }
+
+        .border2 {
+            right: auto !important;
+            left: 10px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .header-page {
+        .img-header {
+            justify-content: center !important;
+
+            .border1 {
+                left: auto !important;
+                right: 35px;
+            }
+    
+            .border2 {
+                left: auto !important;
+                right: 10px;
+            }
+        }
+    }
+}
+
+@media(max-width: 650px) {
+    .header-page {
+        .description-header {
+            h1 {
+                font-size: 30px !important;
+            }
+
+            p {
+                font-size: 16px !important;
+            }
+
+            ul {
+                li {
+                    a {
+                        font-weight: 600 !important;
+                        font-size: 15px !important;
+                        padding: 8px 18px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// start introduction-page
+@media(min-width: 991px) {
+    .introduction-page {
+        .box {
+            .title {
+                h3 {
+                    font-size: 25px !important;
+                }
+            }
+
+            .desc {
+
+            }
+        }
+    }
+}
+// end introduction-page
+
+/*/// Start Our Services ///*/
+.our-services {
+    .what-we-do {
+        padding: 20px 60px 0 0 !important;
+
+        p:first-of-type {
+            img {
+                order: 2;
+            }
+        }
+    }
+}
+
+@media(min-width: 991px) {
+    .our-services {
+        .what-we-do {
+            span {
+                font-size: 19px !important;
+            }
+
+            h3 {
+                font-size: 44px !important;
+            }
+            
+            p:last-of-type {
+                font-size: 19px !important;
+            }
+        }    
+    }
+}
+
+/*/// Start About Us ///*/
+.about-us {
+    .text-about-us {
+        p:first-of-type {
+            img {
+                order: 2;
+            }
+        }
+    }
+}
+
+@media(min-width: 991px) {
+    .about-us {
+        .text-about-us {
+            span {
+                font-size: 18px !important;
+            }
+
+            h3 {
+                font-size: 40px !important;
+            }
+
+            p:last-of-type {
+                font-size: 19px !important;
+            }
+        }
+    }
+}
+
+/*/// Start Our Values ///*/
+.our-values {
+    .text-our-values {
+        p:first-of-type {
+            img {
+                order: 2;
+            }
+        }
+    }
+}
+
+@media(min-width: 991px) {
+    .our-values {
+        .boxs-our-values {
+            .box {
+                h4 {
+                    font-size: 25px !important;
+                }
+            }
+        }
+
+        .text-our-values {
+            span {
+                font-size: 18px !important;
+            }
+
+            h3 {
+                font-size: 40px !important;
+            }
+
+            p {
+                font-size: 19px !important;
+            }
+        }
+    }
+}
+/*/// Start Have Any Project ///*/
+.have-any-project {
+    .box-info {
+        p:first-of-type {
+            img {
+                order: 2;
+            }
+        }
+    }
+}
+
+@media(min-width: 991px) {
+    .have-any-project {
+        .box-info {
+            span {
+                font-size: 18px !important;
+            }
+
+            p:last-of-type {
+                font-size: 40px !important;
+            }
+        }
+    }
+}
+
+/*/// Start Explore Featured ///*/
+.explore-features {
+    .container {
+        justify-content: flex-start;
+
+        .box-info {
+            p:first-of-type {
+                img {
+                    order: 2;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 991px) {
+    .explore-features {
+        .box-info {
+            span {
+                font-size: 18px !important;
+            }
+
+            h3 {
+                font-size: 40px !important;
+            }
+
+            p {
+                font-size: 19px !important;
+            }
+        }
+    }
+}
+
+/*/// Start Main Projects ///*/
+.main-projects {
+    .title {
+        p:first-of-type {
+            img {
+                order: 2;
+            }
+        }
+    }
+}
+
+@media(min-width: 991px) {
+    .main-projects {
+        .title {
+            span {
+                font-size: 18px !important;
+            }
+        }
+
+        .box-projects {
+            .box {
+                .info-box {
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*/// Start Contact Us ///*/
+.contact-us {
+    .img-contact {
+        div {
+            p:first-of-type {
+                img {
+                    order: 2;
+                }
+            }
+        }
+    }
+
+    .box-form {
+        p:first-of-type {
+            img {
+                order: 2;
+            }
+        }
+    }
+}
+
+@media(min-width: 991px) {
+    .contact-us {
+        .box-form {
+            span {
+                font-size: 18px !important;
+            }
+
+            form {
+                input,
+                textarea {
+                    font-size: 18px !important;
+                }
+
+                button {
+                    font-size: 19px !important;
+                }
+            }
+        }
+    }
+}
+
+/*/// Start Footer ///*/
+.footer {
+    .column-service {
+        img {
+            transform: rotate(180deg);
+        }
+    }
+}

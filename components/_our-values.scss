@@ -1,0 +1,108 @@
+$colorOne: #6CB33F;
+$colorTwo: #B5DC10;
+
+/* Start Our Values */
+.our-values {
+    background-image: url("../images/background4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0 120px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+
+        .boxs-our-values {
+            width: 50%;
+
+            .box {
+                display: flex;
+                gap: 20px;
+                background-color: #262626;
+                padding: 25px;
+                color: #FFF;
+                margin-bottom: 15px;
+                width: 90%;
+                border-radius: 15px;
+                min-height: 170px;
+
+                .icon-box {
+                    background-color: $colorTwo;
+                    width: 75px;
+                    height: 75px;
+                    padding: 20px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                h4 {
+                    color: $colorTwo;
+                    margin-bottom: 10px;
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .text-our-values {
+            width: 50%;
+            padding: 0 80px;
+
+            p:first-of-type {
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                gap: 10px;
+                font-size: 16px;
+            }
+
+            h3 {
+                font-size: 33px;
+                margin-bottom: 20px;
+            }
+
+            p:nth-of-type(2) {
+                font-size: 16px;
+                line-height: 1.9;
+                margin-bottom: 30px;
+            }
+
+            p:last-of-type {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .our-values {
+        background-image: url("../images/background-app-2.png") !important;
+        background-size: cover;
+        .container {
+            flex-direction: column;
+
+            .boxs-our-values {
+                width: 100% !important;
+                order: 2;
+
+                .box {
+                    width: 100% !important;
+                }
+            }
+
+            .text-our-values {
+                width: 100% !important;
+                order: 1;
+                padding: 10px !important;
+                text-align: center;
+                margin-bottom: 20px;
+
+                p {
+                    width: fit-content !important;
+                    margin: auto;
+                }
+            }
+        }
+    }
+} 

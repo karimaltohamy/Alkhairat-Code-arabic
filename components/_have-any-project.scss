@@ -1,0 +1,109 @@
+$colorOne: #6CB33F;
+$colorTwo: #B5DC10;
+
+/* Start Have Any Project */
+.have-any-project {
+    background-color: #EFFBE7;
+    position: relative;
+    overflow: hidden;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .circle-img1 {
+        position: absolute;
+        left: -13%;
+        top: -37%;
+        transform: rotate(180deg);
+    }
+
+    .circle-img2 {
+        position: absolute;
+        right: -12%;
+        bottom: -37%;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .box-info {
+            width: 50%;
+
+            p:first-of-type {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-size: 16px;
+                color: $colorOne;
+                margin-bottom: 15px;
+            }
+
+            p:last-of-type {
+                font-size: 35px;
+                font-weight: bold;
+            }
+        }
+
+        .link-contact {
+            a {
+                color: #FFF;
+                background-color: #262626;
+                padding: 13px 30px;
+                border-radius: 12px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1500px) {
+    .circle-img1,
+    .circle-img2 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .have-any-project {
+        .container {
+            flex-direction: column;
+            overflow: unset;
+
+            .box-info {
+                width: 100% !important;
+                text-align: center;
+                margin-bottom: 60px;
+
+                p {
+                    width: fit-content;
+                    margin: auto;
+
+                    &:last-of-type {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .circle-img1,
+    .circle-img2 {
+        display: block !important;
+    }
+
+    .circle-img1 {
+        left: -75% !important;
+        top: -60% !important;
+    }
+
+    .circle-img2 {
+        right: -70% !important;
+        bottom: -60% !important;
+    }
+}

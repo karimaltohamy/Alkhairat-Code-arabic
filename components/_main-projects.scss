@@ -81,6 +81,7 @@ $colorTwo: #B5DC10;
 @media (max-width: 550px) {
     .main-projects {
         padding-top: 300px !important;
+        min-height: 580px !important;
         
 
         .title {
@@ -97,9 +98,17 @@ $colorTwo: #B5DC10;
         }
 
         .box-projects {
-            flex-direction: column;
+            display: grid !important;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
             .box {
-                width: 60% !important;
+                width: 100% !important;
+
+                .info-box {
+                    p {
+                        font-size: 13px !important;
+                    }
+                }
             }
         }
     }

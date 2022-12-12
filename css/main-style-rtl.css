@@ -1119,6 +1119,7 @@ body {
 @media (max-width: 550px) {
   .main-projects {
     padding-top: 300px !important;
+    min-height: 580px !important;
   }
   .main-projects .title {
     margin-bottom: 25px !important;
@@ -1130,13 +1131,16 @@ body {
     font-size: 28px !important;
   }
   .main-projects .box-projects {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: -ms-grid !important;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
   }
   .main-projects .box-projects .box {
-    width: 60% !important;
+    width: 100% !important;
+  }
+  .main-projects .box-projects .box .info-box p {
+    font-size: 13px !important;
   }
 }
 /* Start Contact Us */

@@ -259,8 +259,6 @@ body {
   width: 1000px;
   position: absolute;
   z-index: 1;
-  -webkit-transform: translateX(-55px);
-          transform: translateX(-55px);
 }
 .header-page .container .img-header .border1 {
   position: absolute;
@@ -338,6 +336,10 @@ body {
   }
   .header-page .img-header {
     margin-top: 0 !important;
+  }
+  .header-page .img-header .main-img {
+    -webkit-transform: translateX(-55px);
+            transform: translateX(-55px);
   }
 }
 /* Start Introduction Page */

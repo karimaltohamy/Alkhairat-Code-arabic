@@ -198,7 +198,7 @@ $colorTwo: #B5DC10;
                 width: 1000px;
                 position: absolute;
                 z-index: 1;
-                transform: translateX(-55px);
+                
             }
 
             .border1 {
@@ -288,6 +288,9 @@ $colorTwo: #B5DC10;
         .img-header {
             margin-top: 0 !important;
             
+            .main-img {
+                transform: translateX(-55px);
+            }
         }
     }
 }

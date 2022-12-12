@@ -47,10 +47,41 @@ $colorTwo: #B5DC10;
     .explore-features {
         background-image: url("../images/background-app-4.png") !important;
         background-position: center center;
+        min-height: 480px !important;
 
+        .container {
+            height: 500px !important;
+
+            .box-info {
+                padding: 15px !important;
+                min-height: 250px !important;
+
+                p:first-of-type {
+                    img {
+                        width: 75px !important;
+                    }
+                }
+
+                h3 {
+                    font-size: 20px !important;
+                    margin-bottom: 5px !important;
+                }
+
+                p:last-of-type {
+                    font-size: 12px !important;
+                }   
+            }
+        }
+
+        
+    }
+}
+
+@media(max-width: 500px) {
+    .explore-features {
         .box-info {
             width: 100% !important;
-            padding: 20px !important;
+            min-height: 200px !important;
         }
     }
 }

@@ -89,3 +89,30 @@ $colorTwo: #B5DC10;
         }
     }
 }
+
+@media(max-width: 767px) {
+    .introduction-page {
+
+        .container-box {
+            .box {
+                min-height: 230px !important;  
+                padding: 5px !important;
+            }
+        }
+    }
+
+    .sponsor-companies {
+        .container {
+            padding: 10px 15px !important;
+            gap: 20px !important;
+
+            .img-companie {
+                margin:  0 auto !important;
+
+                img {
+                    height: 65px !important;
+                }
+            }
+        }
+    }
+}

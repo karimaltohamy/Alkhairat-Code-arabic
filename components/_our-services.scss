@@ -83,10 +83,7 @@ $colorTwo: #B5DC10;
             .boxs-services {
                 width: 100% !important;
                 order: 2;
-                flex-direction: column;
-
                 .box {
-                    width: 100% !important;
                     padding: 35px;
                 }
             }
@@ -103,4 +100,70 @@ $colorTwo: #B5DC10;
             }
         }
     }
+}
+
+@media(max-width: 767px) {
+    .our-services {
+        padding-top: 40px !important;
+        background-image: none;
+        background-color: #6CB33F;
+        border-bottom-right-radius: 180px;
+        padding-bottom: 73px;
+        
+
+        .boxs-services {
+            padding-top: 55px !important;
+            padding-bottom: 55px !important;
+
+            .box {
+                padding: 15px !important;
+                min-height: 250px !important;
+
+                img {
+                    margin-bottom: 5px !important;
+                    width: 35px;
+                }
+
+                h3 {
+                    font-size: 17px !important;
+                    margin-bottom: 5px !important;
+                }
+
+                p {
+                    font-size: 11px !important;
+                }
+            }
+        }
+
+        .what-we-do {
+            p:first-of-type {
+                > img {
+                    width: 75px !important;
+                }
+            }
+
+            h3 {
+                font-size: 35px !important;
+                margin-bottom: 0 !important;
+            }
+
+            p:last-of-type {
+                font-size: 15px !important;
+                line-height: 1.6 !important;
+            }
+        }
+    }
+}
+
+@media(max-width: 430px) {
+    .our-services {
+        .boxs-services {
+            .box {
+                width: 100% !important;
+                min-height: 220px !important;
+            }
+        }
+    }
+    
+    
 }

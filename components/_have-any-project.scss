@@ -51,8 +51,8 @@ $colorTwo: #B5DC10;
             a {
                 color: #FFF;
                 background-color: #262626;
-                padding: 13px 30px;
-                border-radius: 12px;
+                padding: 20px 65px;
+                border-radius: 5px;
             }
         }
     }
@@ -91,19 +91,43 @@ $colorTwo: #B5DC10;
     }
 }
 
-@media (max-width: 400px) {
-    .circle-img1,
-    .circle-img2 {
-        display: block !important;
-    }
+@media (max-width: 500px) {
 
-    .circle-img1 {
-        left: -75% !important;
-        top: -60% !important;
-    }
+    .have-any-project {
+        .circle-img1,
+        .circle-img2 {
+            display: block !important;
+        }
 
-    .circle-img2 {
-        right: -70% !important;
-        bottom: -60% !important;
+        .circle-img1 {
+            left: -75% !important;
+            top: -60% !important;
+        }
+
+        .circle-img2 {
+            right: -70% !important;
+            bottom: -60% !important;
+        }
+
+        .box-info {
+            margin-bottom: 35px !important;
+
+            p:first-of-type {
+                img {
+                    width: 75px !important;
+                }
+            }
+
+            p:last-of-type {
+                font-size: 26px !important;
+            }
+        }
+
+        .link-contact {
+            a {
+                padding: 8px 30px !important;
+            }
+        }
     }
+    
 }

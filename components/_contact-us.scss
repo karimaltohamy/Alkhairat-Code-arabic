@@ -131,3 +131,21 @@ $colorTwo: #B5DC10;
         }
     }
 }
+
+@media(max-width: 500px) {
+    .contact-us {
+        padding: 60px 0 20px !important;
+
+        .img-contact {
+            > p {
+                > img {
+                    width: 75px;
+                }
+            }
+
+            h3 {
+                font-size: 25px !important;
+            }
+        }
+    }
+}

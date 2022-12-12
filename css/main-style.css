@@ -332,14 +332,14 @@ body {
     line-height: 1.5 !important;
   }
   .header-page .description-header ul li a {
-    width: 130px;
+    width: 135px;
   }
   .header-page .img-header {
     margin-top: 0 !important;
   }
   .header-page .img-header .main-img {
-    -webkit-transform: translateX(-55px);
-            transform: translateX(-55px);
+    -webkit-transform: translateX(-28px) !important;
+            transform: translateX(-28px) !important;
   }
 }
 /* Start Introduction Page */

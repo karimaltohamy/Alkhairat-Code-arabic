@@ -169,7 +169,6 @@ $colorTwo: #B5DC10;
                         justify-content: center;
                         gap: 10px;
                         border-radius: 5px;
-                        width: 130px;
                     }
                 }
 
@@ -183,7 +182,6 @@ $colorTwo: #B5DC10;
                         justify-content: center;
                         gap: 15px;
                         border-radius: 5px;
-                        width: 130px;
                     }
                 }
             }
@@ -200,6 +198,7 @@ $colorTwo: #B5DC10;
                 width: 1000px;
                 position: absolute;
                 z-index: 1;
+                transform: translateX(-55px);
             }
 
             .border1 {
@@ -275,6 +274,14 @@ $colorTwo: #B5DC10;
                 max-width: 275px;
                 margin-bottom: 20px !important;
                 line-height: 1.5 !important;
+            }
+
+            ul {
+                li {
+                    a {
+                        width: 130px;
+                    }
+                }
             }
         }
 

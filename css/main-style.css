@@ -225,7 +225,6 @@ body {
           justify-content: center;
   gap: 10px;
   border-radius: 5px;
-  width: 130px;
 }
 .header-page .container .description-header ul li:last-of-type a {
   color: #000;
@@ -242,7 +241,6 @@ body {
           justify-content: center;
   gap: 15px;
   border-radius: 5px;
-  width: 130px;
 }
 .header-page .container .img-header {
   width: 60%;
@@ -261,6 +259,8 @@ body {
   width: 1000px;
   position: absolute;
   z-index: 1;
+  -webkit-transform: translateX(-55px);
+          transform: translateX(-55px);
 }
 .header-page .container .img-header .border1 {
   position: absolute;
@@ -332,6 +332,9 @@ body {
     max-width: 275px;
     margin-bottom: 20px !important;
     line-height: 1.5 !important;
+  }
+  .header-page .description-header ul li a {
+    width: 130px;
   }
   .header-page .img-header {
     margin-top: 0 !important;

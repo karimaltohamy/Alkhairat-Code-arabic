@@ -320,8 +320,21 @@ body {
   }
 }
 @media (max-width: 650px) {
+  .header-page .description-header {
+    padding-top: 40px !important;
+  }
+  .header-page .description-header h1 {
+    margin-bottom: 5px !important;
+    font-size: 35px !important;
+    line-height: 1.2 !important;
+  }
   .header-page .description-header p {
     max-width: 275px;
+    margin-bottom: 10px !important;
+    line-height: 1.3 !important;
+  }
+  .header-page .img-header {
+    margin-top: 0 !important;
   }
 }
 /* Start Introduction Page */
@@ -1496,15 +1509,15 @@ body {
 }
 @media (max-width: 650px) {
   .header-page .description-header h1 {
-    font-size: 45px !important;
+    font-size: 35px !important;
   }
   .header-page .description-header p {
-    font-size: 18px !important;
+    font-size: 17px !important;
   }
   .header-page .description-header ul li a {
     font-weight: 600 !important;
     font-size: 15px !important;
-    padding: 8px 18px !important;
+    padding: 6px 18px !important;
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: reverse !important;
         -ms-flex-direction: row-reverse !important;

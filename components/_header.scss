@@ -263,9 +263,23 @@ $colorTwo: #B5DC10;
 @media(max-width: 650px) {
     .header-page {
         .description-header {
+            
+            padding-top: 40px !important;
+
+            h1 {
+                margin-bottom: 5px !important;
+                font-size: 35px !important;
+                line-height: 1.2 !important;
+            }
             p {
                 max-width: 275px;
+                margin-bottom: 10px !important;
+                line-height: 1.3 !important;
             }
+        }
+
+        .img-header {
+            margin-top: 0 !important;
         }
     }
 }

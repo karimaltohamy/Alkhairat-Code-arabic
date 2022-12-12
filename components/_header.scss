@@ -280,6 +280,7 @@ $colorTwo: #B5DC10;
                 li {
                     a {
                         width: 135px;
+                        padding: 6px 18px !important;
                     }
                 }
             }
@@ -287,6 +288,14 @@ $colorTwo: #B5DC10;
 
         .img-header {
             margin-top: 0 !important;
+
+            .border1 {
+                right: 48px !important;
+            }
+
+            .border2 {
+                right: 30px !important;
+            }
             
             .main-img {
                 transform: translateX(-28px) !important;

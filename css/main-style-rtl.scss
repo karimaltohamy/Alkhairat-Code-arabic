@@ -77,11 +77,11 @@
     .header-page {
         .description-header {
             h1 {
-                font-size: 30px !important;
+                font-size: 45px !important;
             }
 
             p {
-                font-size: 16px !important;
+                font-size: 18px !important;
             }
 
             ul {
@@ -90,6 +90,7 @@
                         font-weight: 600 !important;
                         font-size: 15px !important;
                         padding: 8px 18px !important;
+                        flex-direction: row-reverse !important;
                     }
                 }
             }

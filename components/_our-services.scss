@@ -25,7 +25,7 @@ $colorTwo: #B5DC10;
                 background-color: #FFF;
                 border-radius: 15px;
                 min-height: 315px;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
 
                 img {
                     margin-bottom: 13px;
@@ -81,7 +81,6 @@ $colorTwo: #B5DC10;
             flex-direction: column;
 
             .boxs-services {
-                width: 100% !important;
                 order: 2;
                 .box {
                     padding: 35px;
@@ -114,10 +113,11 @@ $colorTwo: #B5DC10;
         .boxs-services {
             padding-top: 55px !important;
             padding-bottom: 55px !important;
+            width: 100% !important;
 
             .box {
-                padding: 15px !important;
-                min-height: 250px !important;
+                padding: 10px !important;
+                min-height: 175px !important;
 
                 img {
                     margin-bottom: 5px !important;
@@ -159,8 +159,6 @@ $colorTwo: #B5DC10;
     .our-services {
         .boxs-services {
             .box {
-                width: 100% !important;
-                min-height: 220px !important;
             }
         }
     }

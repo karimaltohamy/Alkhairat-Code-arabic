@@ -157,7 +157,7 @@ $colorTwo: #B5DC10;
             ul {
                 display: flex;
                 align-items: center;
-                gap: 20px;
+                gap: 10px;
 
                 li:first-of-type {
                     a {
@@ -166,8 +166,10 @@ $colorTwo: #B5DC10;
                         padding: 10px 25px;
                         display: flex;
                         align-items: center;
+                        justify-content: center;
                         gap: 10px;
-                        border-radius: 10px;
+                        border-radius: 5px;
+                        width: 130px;
                     }
                 }
 
@@ -178,8 +180,10 @@ $colorTwo: #B5DC10;
                         padding: 10px 30px;
                         display: flex;
                         align-items: center;
+                        justify-content: center;
                         gap: 15px;
-                        border-radius: 10px;
+                        border-radius: 5px;
+                        width: 130px;
                     }
                 }
             }
@@ -233,6 +237,10 @@ $colorTwo: #B5DC10;
             .description-header {
                 width: 100% !important;
                 text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
 
                 ul {
                     margin: auto;
@@ -247,6 +255,16 @@ $colorTwo: #B5DC10;
                     position: unset !important;
                     width: 690px !important;
                 }
+            }
+        }
+    }
+}
+
+@media(max-width: 650px) {
+    .header-page {
+        .description-header {
+            p {
+                max-width: 275px;
             }
         }
     }

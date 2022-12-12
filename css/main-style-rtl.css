@@ -1021,6 +1021,9 @@ body {
   .explore-features .container .box-info p:first-of-type img {
     width: 75px !important;
   }
+  .explore-features .container .box-info p:first-of-type span {
+    font-size: 12px !important;
+  }
   .explore-features .container .box-info h3 {
     font-size: 20px !important;
     margin-bottom: 5px !important;
@@ -1029,10 +1032,13 @@ body {
     font-size: 12px !important;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .explore-features .box-info {
     width: 100% !important;
     min-height: 200px !important;
+  }
+  .explore-features .box-info p:first-of-type span {
+    font-size: 12px !important;
   }
 }
 /* Start Main Projects */

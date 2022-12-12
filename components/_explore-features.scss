@@ -60,6 +60,10 @@ $colorTwo: #B5DC10;
                     img {
                         width: 75px !important;
                     }
+
+                    span {
+                        font-size: 12px !important;
+                    }
                 }
 
                 h3 {
@@ -77,11 +81,19 @@ $colorTwo: #B5DC10;
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 400px) {
     .explore-features {
         .box-info {
             width: 100% !important;
             min-height: 200px !important;
+
+            p:first-of-type {
+                span {
+                    font-size: 12px !important;
+                }
+            }
+
+            
         }
     }
 }
